@@ -1,6 +1,9 @@
 import React from 'react'
 import Photo from '../assets/image-ppl.JPG'
 import fitness from '../assets/8.png'
+import ngc from '../assets/11.png'
+import hostp from '../assets/6.png'
+
 
 const projects=[
     {
@@ -12,37 +15,16 @@ const projects=[
     },
     {
         id:2,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
+        name:"Smart Tech Hub Management System",
+        technologies:"JavaScript, React, Node.js, Express.js, MongoDB, Postman API, HTML, CSS ",
+        image:ngc,
+        github:"https://github.com/LKappagoda00/New-Gen-Computer-shop-Management-System",
     },
     {
         id:3,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
-    },
-    {
-        id:4,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
-    },
-    {
-        id:5,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
-    },
-    {
-        id:6,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
+        name:"Hospital Management System",
+        technologies:"TypeScript, React, Node.js, MongoDB, Postman API, HTML, CSS   ",
+        image:hostp,
         github:"",
     },
     
@@ -51,9 +33,9 @@ const projects=[
 
 const Projects = () => {
   return (
-    <div className='bg-black text-white py-20' id='services'>
+    <div className='bg-black text-white py-20' id='projects'>
             <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-                <h2 className='text-4xl font-bold text-center mb-12'>My Services</h2>
+                <h2 className='text-4xl font-bold text-center mb-12'>Projects</h2>
                 <div className='grid grid-cols-1 md:grid-cols2 lg:grid-cols-3 gap-8'>
                     {projects.map((project)=>(
                         <div key={project.id} className='bg-gray-800 p-6 rounded-lg hover:shadow-lg

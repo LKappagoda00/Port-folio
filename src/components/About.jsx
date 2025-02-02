@@ -11,11 +11,13 @@ const About = () => {
                         className='w-72 h-80 rounded object-cover md-8' />
                     <div className='flex-1'>
                         <p className='text-lg mb-8 mt-8'>
-                        " Motivated software engineering student with experience in web and mobile
-                         development using React, Node.js, Express, Mongodb, PHP and java. Skilled 
-                         in problem-solving, holding a HackerRank Skill Certificate in Problem Solving 
-                         (Basic). Proficient in JavaScript, Java, Python, C++, and C. Passionate about 
-                         building innovative solutions and contributing to impactful projects."
+                        " I am a passionate and dedicated Full-Stack Software Developer with expertise in designing and developing scalable, high-performance applications. My skills include front-end and back-end development, database management, and API integration. I have a strong understanding of software architecture, user experience, and performance optimization.
+                        </p>
+                        <p className='text-lg mb-8 mt-8'>
+With a problem-solving mindset and a keen eye for detail, I strive to create efficient and user-friendly solutions. I am always eager to learn new technologies, adapt to challenges, and collaborate in a dynamic environment. My goal is to build innovative and impactful digital experiences that enhance functionality and user engagement.
+</p>
+<p className='text-lg mb-8 mt-8'>
+📍 Let’s build something great together!"
                         </p>
 
                         <div className='space-y-4'>
@@ -54,6 +56,41 @@ const About = () => {
                                     </div>
                                 </div> 
                             </div>
+
+                            <div className='flex item-center'>
+                                <label htmlFor="htmlandcss" className='w-2/12'>
+                                    JavaScript
+                                </label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
+                                        transform transition-transform duration-300 hover:scale-105 w-11/12'>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex item-center'>
+                                <label htmlFor="htmlandcss" className='w-2/12'>
+                                    Java
+                                </label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
+                                        transform transition-transform duration-300 hover:scale-105 w-11/12'>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex item-center'>
+                                <label htmlFor="htmlandcss" className='w-2/12'>
+                                    PHP
+                                </label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
+                                        transform transition-transform duration-300 hover:scale-105 w-11/12'>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
   
                         </div>
                        <div className='mt-12 flex justify-between text-center'>
