@@ -1,56 +1,51 @@
 import React from 'react'
 import Photo from '../assets/image-ppl.JPG'
+import fitness from '../assets/8.png'
 
 const projects=[
     {
         id:1,
+        name:"Health And Wellness App",
+        technologies:"React Native, Firebase, Expo, JavaScript, Redux, Figma ",
+        image:fitness,
+        github:"https://github.com/LKappagoda00/Firebase-Fitness-Master",
+    },
+    {
+        id:2,
         name:"NGC",
         technologies:"MERN Stack",
         image:Photo,
         github:"",
     },
     {
-        id:1,
+        id:3,
         name:"NGC",
         technologies:"MERN Stack",
         image:Photo,
         github:"",
     },
     {
-        id:1,
+        id:4,
         name:"NGC",
         technologies:"MERN Stack",
         image:Photo,
         github:"",
     },
     {
-        id:1,
+        id:5,
         name:"NGC",
         technologies:"MERN Stack",
         image:Photo,
         github:"",
     },
     {
-        id:1,
+        id:6,
         name:"NGC",
         technologies:"MERN Stack",
         image:Photo,
         github:"",
     },
-    {
-        id:1,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
-    },
-    {
-        id:1,
-        name:"NGC",
-        technologies:"MERN Stack",
-        image:Photo,
-        github:"",
-    },
+    
 
 ]
 
