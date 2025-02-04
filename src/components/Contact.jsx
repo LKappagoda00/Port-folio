@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import { FaPhone, FaMapMarkedAlt, FaEnvelope } from 'react-icons/fa'
+import React, { useState } from 'react';
+import { FaPhone, FaMapMarkedAlt, FaEnvelope } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,9 +38,25 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (validate()) {
-      // Handle form submission (e.g., send an email, API call, etc.)
-      alert('Form submitted successfully!');
+      // Send email using EmailJS
+      emailjs.sendForm(
+        'service_lahiru', // Replace with your EmailJS service ID
+        'template_2j5g5gt', // Replace with your EmailJS template ID
+        e.target,
+        'zN6trY5KCl71NY37_' // Replace with your EmailJS user ID
+      )
+      .then((result) => {
+        alert('Form submitted successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      }, (error) => {
+        alert('Failed to send message. Please try again later.');
+      });
     }
   };
 
