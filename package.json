@@ -6,10 +6,9 @@
   "homepage": "https://lkappagoda00.github.io/Port-folio/",
   "scripts": {
     "dev": "vite",
-    "build": "babel src --out-dir dist",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "webpack serve --open"
   },
