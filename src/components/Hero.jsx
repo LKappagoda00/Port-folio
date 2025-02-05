@@ -90,7 +90,7 @@ const Hero = () => {
 
         {/* Image Section */}
         <motion.div
-           className=' mx-auto mb-8 w-100 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'
+           className=' mx-auto mb-8 w-118 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'
           variants={imageVariants}
           initial="hidden"
           whileInView="visible"
@@ -99,7 +99,7 @@ const Hero = () => {
           <motion.img
             src={HeroImage}
             alt="Lahiru Kappagoda"
-            className="w-80 h-100 md:w-120 rounded-full object-cover transform transition-transform duration-300 hover:scale-105"
+            className="w-80 h-120 md:w-120 rounded-full object-cover transform transition-transform duration-300 hover:scale-105"
             whileHover={{ scale: 1.05, rotate: 5 }}
           />
         </motion.div>
