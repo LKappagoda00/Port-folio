@@ -42,8 +42,7 @@ const Hero = () => {
             </h1>
             <h2 className="text-3xl font-semibold mt-5">Full-Stack Developer</h2>
             <p className="mt-5 text-gray-300 text-xl">
-              I am a passionate full-stack developer specializing in building modern and responsive web applications.
-              I create seamless user experiences across the frontend and backend.
+            "I am a dedicated Full Stack Developer with expertise in building modern, scalable, and user-friendly web and mobile applications. I focus on creating seamless experiences across both frontend and backend technologies."
             </p>
             <div className="mt-5">
               <h4 className="text-lg font-normal text-gray-300 mb-5">FIND ME IN</h4>
@@ -79,7 +78,8 @@ const Hero = () => {
                 href={CV}
                 download
                 whileHover={{ scale: 1.1, rotate: 5 }}
-                className="bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 px-4 py-2 rounded-full"
+                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white hidden md:inline-block 
+              transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
               >
                 Download CV
               </motion.a>
@@ -90,7 +90,8 @@ const Hero = () => {
 
         {/* Image Section */}
         <motion.div
-           className=' mx-auto mb-8 w-118 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'
+           className=' mx-auto mb-8 w-118 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 rounded-full p-1 bg-gradient-to-r from-green-400 to-blue-500"
+'
           variants={imageVariants}
           initial="hidden"
           whileInView="visible"
@@ -99,7 +100,7 @@ const Hero = () => {
           <motion.img
             src={HeroImage}
             alt="Lahiru Kappagoda"
-            className="w-80 h-120 md:w-120 rounded-full object-cover transform transition-transform duration-300 hover:scale-105"
+            className="w-80 h-120 md:w-120 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 object-cover border-4 border-black"
             whileHover={{ scale: 1.05, rotate: 5 }}
           />
         </motion.div>
