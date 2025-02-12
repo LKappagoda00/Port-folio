@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Contact from './Contact';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
             <a href="#services" className='block hover:text-gray-400' onClick={toggleMenu}>Services</a>
             <a href="#projects" className='block hover:text-gray-400' onClick={toggleMenu}>Projects</a>
             <a href="#contact" className='block hover:text-gray-400' onClick={toggleMenu}>Contact</a>
-            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
+            <button onClick={Contact} className='bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
               Contact Me
             </button>
           </div>

@@ -51,7 +51,7 @@ const Hero = () => {
                   whileHover={iconVariants.hover}
                   className="p-3 border-2 border-green-400 rounded-full hover:bg-gray-800 hover:border-white"
                 >
-                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/profile.php?id=100072383620685" target="_blank" rel="noopener noreferrer">
                     <FaFacebookF className="text-1xl text-green-400 hover:text-white" />
                   </a>
                 </motion.div>
@@ -59,7 +59,7 @@ const Hero = () => {
                   whileHover={iconVariants.hover}
                   className="p-3 border-2 border-green-400 rounded-full hover:bg-gray-800 hover:border-white"
                 >
-                  <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/LKappagoda00" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="text-1xl text-green-400 hover:text-white" />
                   </a>
                 </motion.div>
@@ -67,7 +67,7 @@ const Hero = () => {
                   whileHover={iconVariants.hover}
                   className="p-3 border-2 border-green-400 rounded-full hover:bg-gray-800 hover:border-white"
                 >
-                  <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/lahiru-k-538ba9153" target="_blank" rel="noopener noreferrer">
                     <FaLinkedinIn className="text-1xl text-green-400 hover:text-white" />
                   </a>
                 </motion.div>
@@ -77,7 +77,7 @@ const Hero = () => {
               <motion.a
                 href={CV}
                 download
-                whileHover={{ scale: 1.1, rotate: 5 }}
+                whileHover={{ scale: 1.1, rotate: 0}}
                 className="bg-gradient-to-r from-blue-500 to-purple-500 text-white hidden md:inline-block 
               transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
               >
